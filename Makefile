@@ -35,7 +35,7 @@ A: $(EXEC1)
 
 .PHONY: PriorityQueue
 PriorityQueue: A
-	@echo "zadanie A - priority queue\n"
+	@echo "priority queue\n"
 	@./$(EXEC1)
 
 #priority queue binary#
@@ -43,7 +43,7 @@ PriorityQueue: A
 B: $(EXEC2)
 .PHONY: PriorityQueueBinary
 PriorityQueueBinary: B
-	@echo "zadanie B - priority queue binary\n"
+	@echo "priority queue binary\n"
 	@./$(EXEC2)
 
 
